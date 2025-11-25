@@ -1,0 +1,8 @@
+ Liaison lia = (Liaison)Liaisons.SelectedItem;
+ lia.Durée = tb.Text;
+ 
+ monManager.updateLiaison(lia);
+ lLiaison = monManager.chargementlBD();
+ afficheLparS();
+
+ tb.Clear();
