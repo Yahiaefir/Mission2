@@ -1,0 +1,18 @@
+try
+{ 
+
+if (btn.Tag.ToString() == "1")
+{
+    Secteur s = (Secteur)Secteurs.SelectedItem;
+
+       liaisonsSecteur.Clear();
+
+        foreach (Liaison l in lLiaison)
+        {
+            if (l.NomSecteur == s.NomSecteur)
+            {
+                liaisonsSecteur.Add(l);
+            }
+        }
+
+        afficheLparS();
