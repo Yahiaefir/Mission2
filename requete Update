@@ -1,0 +1,1 @@
+update liaison set duree= '" + l.Durée + "' where codeliaison = " + l.CodeLiaison
