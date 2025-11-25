@@ -1,0 +1,15 @@
+public void afficheLparS()
+{
+    try
+    {
+
+        Liaisons.DataSource = null;
+        Liaisons.DataSource = liaisonsSecteur;
+        Liaisons.DisplayMember = "Description";
+
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show(ex.Message);
+    }
+}
