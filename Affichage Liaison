@@ -1,0 +1,4 @@
+public string Description
+{
+    get => codeLiaison + " | " +  NomSecteur + " | " + PortDepart  + " → " + PortDarrive  + " | " + Durée;
+}
